@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+.uv/
+events.json
+analyze_kktix.py
+*.pyc
+.DS_Store
