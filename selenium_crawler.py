@@ -17,14 +17,12 @@ from selenium_stealth import stealth
 
 # ================= 配置區域 =================
 # 在此填入您的 Discord Webhook 網址
-DISCORD_WEBHOOK_URL = "https://canary.discord.com/api/webhooks/1468798065900257351/Avbn5GcBK5TP9YIdWfCYeRmueRkcSZ4aq0aqJN9-Iq5mMzodVVSurNBhZt-z087hSqY0" 
+DISCORD_WEBHOOK_URL = "" 
 
 # 要盯的網址清單 (可以放 5 個或更多)
 TARGET_URLS = [
-    "https://kktix.com/events/69aeba2f/registrations/new",
-    "https://kktix.com/events/a3e28733/registrations/new",
-    "https://kktix.com/events/080bd3e0/registrations/new",
-    # 您可以在此繼續貼上其他網址
+    # "https://kktix.com/events/example1/registrations/new",
+    # "https://kktix.com/events/example2/registrations/new",
 ]
 
 # 監控間隔 (秒)，預設 10 分鐘 = 600 秒
